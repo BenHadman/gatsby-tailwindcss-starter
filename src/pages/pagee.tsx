@@ -19,9 +19,17 @@ const IndexPage = () => (
     </div>
           <div class="pt-8 pb-4 px-8 bg-white opacity-75 shadow-lg rounded-lg mt-8 mb-4 lg:mx-80">
             <div class="flex justify-center my-4">
-    <img class="w-20 h-20 object-cover mx-2" id="amSection" src="https://logo.clearbit.com/bms.com">
-    <img class="w-20 h-20 object-cover mx-2 rounded-full" src="https://img.myabcam.com/EloquaImages/clients/Abcam/%7Bdfe94a58-279a-4a1e-9863-0fd52be2fe21%7D_Glen_580x640px.jpg">
-  </div>
+     <StaticImage
+        src="https://logo.clearbit.com/bms.com"
+        alt=""
+       class="w-20 h-20 object-cover mx-2"
+      />
+              <StaticImage
+        src="https://img.myabcam.com/EloquaImages/clients/Abcam/%7Bdfe94a58-279a-4a1e-9863-0fd52be2fe21%7D_Glen_580x640px.jpg"
+        alt=""
+        class="w-20 h-20 object-cover mx-2 rounded-full"
+      />
+    </div>
   <div>
     <h2 class="text-gray-800 text-3xl font-semibold text-center">Your <span id="accountName"></span> Account Advocate</h2>
     <p class="mt-2 text-gray-600 text-center mb-4">Speak with Glen Mars, your <span id="accountName"></span> Account Advocate about how you could partner with abcam</p>
